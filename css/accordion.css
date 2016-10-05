@@ -1,0 +1,126 @@
+
+
+
+
+
+.accordion-panels ul {
+    margin: 0;
+    padding: 0;
+}
+.accordion-panels ul li {
+    list-style-type: none;
+    display: inline-block;
+    background: #999;
+    margin: 0;
+    padding: 3px 10px;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.accordion-panels ul li:hover {
+    color: #82CA92;
+    background: #666;
+}
+.faint {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+.accordion-panels ul li.active {
+    color: #82CA92;
+    background: #666;
+    text-decoration: underline;
+}
+
+.accordion-panels .panel {
+    display:none;
+    background: #666;
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+}
+
+.accordion-panels .panel.active {
+    display:block;
+}
+
+@media all and (min-width: 1201px) {
+#wrapper {
+    width:550px;
+    font-size:10pt;
+    font-weight:bold;
+    margin:auto;
+    
+}
+    
+.accordion-wrapper {
+    text-align:center;
+    width: 550px;
+    margin:auto;
+}
+}
+
+@media all and (max-width: 1200px) and (min-width: 600px) {
+#wrapper {
+    width:auto;
+    font-size:10pt;
+    font-weight:bold;
+    margin:auto;
+    padding:20px;
+}
+.accordion-wrapper {
+    text-align:center;
+    width: auto;
+    margin:auto;
+
+}
+}
+
+
+
+@media all and (max-width: 599px) and (min-width: 50px) {
+#wrapper {
+    width:auto;
+    font-size:.8em;
+    font-weight:bold;
+    margin:auto;
+}
+
+    
+.accordion-wrapper {
+    text-align:center;
+    width: auto;
+    margin:auto;
+}
+}
+
+#accordion1 {
+    display:block;
+}
+
+#accordion2 {
+    display:none;
+}
+
+#accordion3 {
+    display:none;
+}
+
+#accordion4 {
+    display:none;
+}
+
+#accordion5 {
+    display:none;
+}
+
+#accordion6 {
+    display:none;
+}
+#accordion7 {
+    display:none;
+}
